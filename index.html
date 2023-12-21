@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Weather Scout</title>
+  </head>
+  <body>
+    <div class="card">
+      <h1 class="intro">Weather Information</h1>
+      <div class="search">
+    <form id="weather-form">
+        <input type="text" id="search" class="search-bar" placeholder=" City, State" />
+        <button type="submit" id="weatherloc">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-search"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"
+            />
+          </svg>
+        </button>
+      </div>
+    <div class="weather hidden">
+      <h2 class="city"></h2>
+      <h3 class="temperature round"></h3>
+      <img 
+      src=""
+      alt= "Weather-Icon"
+      class="icon" 
+      />
+      <div class="description">Visual:</div>
+      <div class="humidity">Humidity:</div>
+      <div class="wind">Wind speed:</div>
+    </div>
+  </body>
+</html>
